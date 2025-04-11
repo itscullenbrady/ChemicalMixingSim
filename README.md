@@ -15,6 +15,7 @@
 7. [Future Directions](#future-directions)  
 8. [How to Run the Application](#how-to-run-the-application)  
 9. [Acknowledgments](#acknowledgments)  
+10. [License](#license)
 
 ---
 
@@ -173,6 +174,13 @@ var startInfo = new ProcessStartInfo {
 - **OpenBabel Community** – For the powerful open-source toolkit  
 - **Online Developer Forums** – For supporting problem-solving and troubleshooting  
 - **Inspirations** – Alchemy-themed games and real-world chemistry curiosity  
+
+---
+
+## License
+This project is released under the **MIT License**. You are free to use, modify, and distribute this software, provided that proper credit is given to the original author.
+
+This project incorporates **OpenBabel**, which is licensed under the **GPL v2**. You must ensure compliance with OpenBabel's licensing terms when distributing binaries that include it. For more information, visit: https://openbabel.org/wiki/Main_Page
 
 ---
 
