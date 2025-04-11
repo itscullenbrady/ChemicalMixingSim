@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\culle\\OneDrive\\Desktop\\PROG3300\\PROG3300Atomic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2AC721-2484-428A-9FBD-82A73FFCB87B}|PROG3300Atomic\\PROG3300Atomic.csproj|c:\\users\\culle\\onedrive\\desktop\\prog3300\\prog3300atomic\\prog3300atomic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE2AC721-2484-428A-9FBD-82A73FFCB87B}|PROG3300Atomic\\PROG3300Atomic.csproj|solutionrelative:prog3300atomic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2AC721-2484-428A-9FBD-82A73FFCB87B}|PROG3300Atomic\\PROG3300Atomic.csproj|c:\\users\\culle\\onedrive\\desktop\\prog3300\\prog3300atomic\\prog3300atomic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2AC721-2484-428A-9FBD-82A73FFCB87B}|PROG3300Atomic\\PROG3300Atomic.csproj|solutionrelative:prog3300atomic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\culle\\OneDrive\\Desktop\\PROG3300\\PROG3300Atomic\\PROG3300Atomic\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PROG3300Atomic\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\culle\\OneDrive\\Desktop\\PROG3300\\PROG3300Atomic\\PROG3300Atomic\\MainWindow.xaml",
+              "RelativeToolTip": "PROG3300Atomic\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T19:09:37.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\culle\\OneDrive\\Desktop\\PROG3300\\PROG3300Atomic\\PROG3300Atomic\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PROG3300Atomic\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\culle\\OneDrive\\Desktop\\PROG3300\\PROG3300Atomic\\PROG3300Atomic\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PROG3300Atomic\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:47:11.77Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

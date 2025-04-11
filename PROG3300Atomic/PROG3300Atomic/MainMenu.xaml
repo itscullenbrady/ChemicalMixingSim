@@ -1,0 +1,26 @@
+﻿<Window x:Class="PROG3300Atomic.MainMenu"  
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+       xmlns:local="clr-namespace:PROG3300Atomic"  
+       mc:Ignorable="d"  
+       Title="MainMenu" Height="450" Width="800" FontFamily="Calibri Light">  
+   <Grid>
+       <Grid.Background>
+            <ImageBrush ImageSource="/images/potioncraftmain.png" Stretch="UniformToFill"/>
+       </Grid.Background>
+        <Grid>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Border Background="White" CornerRadius="15" Padding="20">
+                    <StackPanel>
+                        <TextBlock HorizontalAlignment="Center" Text="Application Name : Chemical Mixer" FontSize="16" Margin="10"/>
+                        <TextBlock HorizontalAlignment="Center" Text="Cullen Murphy-Brady" FontSize="16" Margin="10"/>
+                        <TextBlock HorizontalAlignment="Center" Text="PROG3300" FontSize="16" Margin="10"/>
+                        <TextBlock HorizontalAlignment="Center" Text="Press Enter to continue..." FontSize="16" Margin="10"/>  
+                    </StackPanel>
+                </Border>
+           </StackPanel>  
+       </Grid>  
+   </Grid>
+</Window>

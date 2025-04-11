@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<!-- Remove all old OpenBabel references -->
+	<ItemGroup>
+		<Compile Remove="OpenBabel-2.4.1\**" />
+		<Compile Remove="OpenBable\**" />
+		<EmbeddedResource Remove="OpenBabel-2.4.1\**" />
+		<EmbeddedResource Remove="OpenBable\**" />
+		<None Remove="OpenBabel-2.4.1\**" />
+		<None Remove="OpenBable\**" />
+		<Page Remove="OpenBabel-2.4.1\**" />
+		<Page Remove="OpenBable\**" />
+	</ItemGroup>
+
+	<!-- Add this single item group for OpenBabel -->
+	<ItemGroup>
+		<Content Include="OpenBabel-3.1.1\**" Exclude="OpenBabel-3.1.1\vc_redist.x64.exe">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>OpenBabel-3.1.1\%(RecursiveDir)%(Filename)%(Extension)</Link>
+		</Content>
+	</ItemGroup>
+
+	<!-- Other resources -->
+	<ItemGroup>
+		<Resource Include="images\potioncraftmain.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="images\potioncraftmain2.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<EmbeddedResource Include="mol\placeholder.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<!-- SQLite database -->
+	<ItemGroup>
+		<None Update="sqlite.db">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+	</ItemGroup>
+
+</Project>
